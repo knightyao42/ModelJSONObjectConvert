@@ -12,7 +12,7 @@
 		D6F9300C209BFFC20029EAD1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D6F9300A209BFFC20029EAD1 /* Main.storyboard */; };
 		D6F9300E209BFFC30029EAD1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D6F9300D209BFFC30029EAD1 /* Assets.xcassets */; };
 		D6F93011209BFFC30029EAD1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D6F9300F209BFFC30029EAD1 /* LaunchScreen.storyboard */; };
-		D6F93019209BFFF60029EAD1 /* Struct+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6F93018209BFFF60029EAD1 /* Struct+Extension.swift */; };
+		D6F93019209BFFF60029EAD1 /* Codable+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6F93018209BFFF60029EAD1 /* Codable+Extension.swift */; };
 		D6F9301B209C00310029EAD1 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6F9301A209C00310029EAD1 /* Model.swift */; };
 /* End PBXBuildFile section */
 
@@ -24,7 +24,7 @@
 		D6F9300D209BFFC30029EAD1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D6F93010209BFFC30029EAD1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D6F93012209BFFC30029EAD1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		D6F93018209BFFF60029EAD1 /* Struct+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Struct+Extension.swift"; sourceTree = "<group>"; };
+		D6F93018209BFFF60029EAD1 /* Codable+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Codable+Extension.swift"; sourceTree = "<group>"; };
 		D6F9301A209C00310029EAD1 /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -58,7 +58,7 @@
 		D6F93005209BFFC20029EAD1 /* ModelJSONObjectConvert */ = {
 			isa = PBXGroup;
 			children = (
-				D6F93018209BFFF60029EAD1 /* Struct+Extension.swift */,
+				D6F93018209BFFF60029EAD1 /* Codable+Extension.swift */,
 				D6F9301A209C00310029EAD1 /* Model.swift */,
 				D6F93006209BFFC20029EAD1 /* AppDelegate.swift */,
 				D6F93008209BFFC20029EAD1 /* ViewController.swift */,
@@ -141,7 +141,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D6F93019209BFFF60029EAD1 /* Struct+Extension.swift in Sources */,
+				D6F93019209BFFF60029EAD1 /* Codable+Extension.swift in Sources */,
 				D6F93009209BFFC20029EAD1 /* ViewController.swift in Sources */,
 				D6F9301B209C00310029EAD1 /* Model.swift in Sources */,
 				D6F93007209BFFC20029EAD1 /* AppDelegate.swift in Sources */,

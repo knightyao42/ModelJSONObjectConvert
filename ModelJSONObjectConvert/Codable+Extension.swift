@@ -1,5 +1,5 @@
 //
-//  Struct+Extension.swift
+//  Codable+Extension.swift
 //  ModelJSONObjectConvert
 //
 //  Created by knightyao on 2018/5/4.
